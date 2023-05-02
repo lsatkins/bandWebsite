@@ -1,0 +1,22 @@
+{
+    "albums": [{
+        "name": "Arctic Monkeys",
+        "shortname": "arcticmonkeys",
+        "albumname": "AM",
+        "summary": "AM is the fifth studio album by English rock band Arctic Monkeys. It was produced by James Ford and co-produced by Ross Orton at Sage & Sound Recording in Los Angeles and Rancho De La Luna in Joshua Tree, California, and released on 9 September 2013 through Domino. The album was promoted by the singles \"R U Mine?\", \"Do I Wanna Know?\", \"Why'd You Only Call Me When You're High?\", \"One for the Road\", \"Arabella\", and \"Snap Out of It\". It features guest appearances by Josh Homme, Bill Ryder-Jones, and Pete Thomas.",
+        "artwork": ["am_am.jpg"],
+        "tracklist": ["Do I Wanna Know", "R U Mine", "One for the Road", "Arabella", "I Want It All", "No.1 Party Anthem", "Mad Sounds", "Fireside", "Why'd You Only Call Me When You're High?", "Snap Out of It", "Knee Socks", "I Wanna Be Yours"],
+        "albumAM": ,
+        "albumSM": 
+    },
+    {
+        "name": "Arctic Monkeys",
+        "shortname": "arcticmonkeys",
+        "albumname": "Favorite Worst Nightmare",
+        "summary": "Favourite Worst Nightmare is the second studio album by English rock band Arctic Monkeys, released on 23 April 2007 by Domino Recording Company. Recorded in east London's Miloco Studios with producers James Ford and Mike Crossey, the album was preceded by the release of lead single \"Brianstorm\" on 2 April 2007.[1] It was the band's first album with new bassist Nick O'Malley, replacing their previous bassist Andy Nicholson, who left the band before the North American tour of the band's debut studio album, Whatever People Say I Am, That's What I'm Not (2006).",
+        "artwork": ["favoriteworstnightmare_am.jpg"],
+        "tracklist": ["Brainstorm", "Teddy Picker", "D is for Dangerous", "Balaclava", "Flourescent Adolescent", "Only Ones Who Know", "Do Me a Favour", "This House Is a Circus", "If You Were There Beware", "The Bad Thing", "Old Yellow Bricks", "505"],
+        "albumAM": ,
+        "albumSM": 
+    }]
+}
