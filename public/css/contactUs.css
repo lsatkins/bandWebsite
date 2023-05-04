@@ -1,0 +1,38 @@
+body{
+    height: 100vh;
+}
+.wholePage{
+    height: 100%;
+}
+.container-fluid{
+    background-color: rgb(255, 191, 71);
+    height: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.feedbackItemContents{
+    display: flex;
+}
+.feedbackTitle{
+    display: flex;
+}
+.leftSide{
+    margin-right: 10px;
+}
+.feedbackTitle{
+    font-weight:bold;
+}
+.feedbackNameLabel{
+    margin-left: 10px;
+    font-weight:normal;
+    font-size: 12px;
+    display: flex;
+    align-items: flex-end;
+}
+.feedback-messages{
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 10px;
+    padding: 10px;
+}

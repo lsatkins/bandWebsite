@@ -9,7 +9,7 @@ body{
 }
 .nav{
     background-color: black;
-    height: 10%;
+    height: 90px;
     color: white;
     display: flex;
     align-items: center;
@@ -29,20 +29,20 @@ body{
     align-items: center;
 }
 .content{
-    height: 80%;
-    background-image: url("/images/spaceCar.jpg");
-    background-size: 800px 101%;
     width: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
     background-color: rgb(255, 191, 71);
 }
 .footer{
-    height: 10%;
     background-color: black;
     color: white;
     display: flex;
     justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.footerMessage{
+    height: 90px;
+    display: flex;
     align-items: center;
 }
 .pic{
@@ -84,6 +84,7 @@ color:rgb(255, 191, 71);
 }
 .dropdown-menu{
     background-color:rgb(255, 191, 71);
+    border: solid black 3px;
 }
 .dropdown-item:hover{
     background-color: black;
@@ -93,6 +94,68 @@ color:rgb(255, 191, 71);
     height: 16px;
     width: 16px;
     margin-right: 10px;
+}
+.albumImg{
+    margin: 10px;
+}
+.album{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.bottom{
+    display: flex;
+}
+.top{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+.title{
+    font-size: 50px;
+}
+.left{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.right{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+.description{
+    margin: 10px;
+    background-color: white;
+    border: solid black 3px;
+    border-radius: 5px;
+    padding: 10px;
+    width: 355px;
+}
+.listenBtn{
+    width: 100px;
+    height:40px;
+}
+.song{
+    margin-bottom: 10px;
+}
+.songList{
+    background-color: white;
+    border: solid black 3px;
+    margin-right: 10px;
+    border-radius: 5px;
+    width: 170px;
+}
+.song::marker{
+    color:rgb(255, 191, 71);
+}
+.bottomSpace{
+    height: 50px;
 }
 @media only screen and (max-width: 600px) {
     .nav{
