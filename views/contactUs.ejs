@@ -18,11 +18,11 @@
 
     <div class="container-fluid h-100">
       <div class="row">
-          <div class="col-sm-4">
+          <div class="col-sm-4 form">
               <h1 class="feedback-form-title">Send us feedback</h1>
               <form class="feedback-form">
                   <div class="form-group">
-                      <label for="feedback-form-name"></label>
+                      <label for="feedback-form-name">Name</label>
                       <input name="name" type="text" class="form-control" id="feedback-form-name" placeholder="Enter your name">
                   </div>
 
@@ -37,10 +37,10 @@
                       <textarea name="message" type="text" placeholder="Enter your message, then hit the submit" class="form-control"
                           id="feedback-form-message" rows="6"></textarea>
                   </div>
-                  <button type="submit" class="btn btn-default pull-right">Submit</button>
+                  <button type="submit" class="submitBtn">Submit</button>
               </form>
           </div><!-- primary -->
-          <aside class="col-sm-8">
+          <aside class="col-sm-8 feedbackSide">
               <div class="maincontent feedback">
                   <h2 class="article-title">Recent Feedback</h2>
                   <div class="feedback-messages">
@@ -54,10 +54,6 @@
     <%- include('partials/footer.ejs') %> 
 
   </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"
-      integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS"
-      crossorigin="anonymous"></script>
     <script src="/js/contactUsClient.js"></script>
 </body>
 </html>

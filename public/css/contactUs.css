@@ -13,6 +13,7 @@ body{
 }
 .feedbackItemContents{
     display: flex;
+    margin-bottom: 10px;
 }
 .feedbackTitle{
     display: flex;
@@ -35,4 +36,30 @@ body{
     border: solid black 3px;
     border-radius: 10px;
     padding: 10px;
+}
+.xButton{
+    background-color: rgb(255, 191, 71);
+    /* color: rgb(255, 191, 71); */
+}
+.article-title{
+    text-align: center;
+}
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+}
+.submitBtn{
+    justify-self: center;
+    align-self: center;
+}
+.form-group{
+    margin-bottom: 10px;
+}
+.form{
+    text-align: center;
+}
+.feedbackSide{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
