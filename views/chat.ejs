@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap Site</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/chat.css">
+</head>
+<body>
+
+    <div class="wholePage">
+        <%- include('partials/nav.ejs') %>
+
+        <div class="mainContent">
+          <form class="chatForm">
+
+            <div class="formGroup">
+              <label for="chatUsername" class="chatNameLabel">Name: </label>
+              <input type="text" class="chatUsername" id="chatUsername" required placeholder="Enter your name">
+              
+            </div>
+            <div class="formGroup">
+              <div class="labelAndInput">
+                <label for="chatMessage" class="chatMessageLabel">Message: </label>
+                <input type="text" placeholder="Enter a message, then press Submit" class="chatMessage" id="chatMessage" required>
+              </div>
+              <button id="chatSubmit" class="chatSubmit">Submit</button>
+            </div>
+
+          </form>
+          <div class="chatDisplay">
+            <p class="startMessage">Welcome... add your message using the form above</p>
+          </div>
+        </div>
+
+        <%- include('partials/footer.ejs') %>
+
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chatClient.js"></script>
+    </div>
+</body>
+</html>

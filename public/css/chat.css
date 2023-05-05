@@ -1,0 +1,49 @@
+.inputAndButton{
+    display: flex;
+    flex-direction: column;
+}
+.chatSubmit{
+    width: 70px;
+}
+.chatForm{
+    width: 400px;
+}
+.mainContent{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.panel{
+    width: 50%;
+}
+.chatMessage{
+    width: 300px;
+}
+p{
+    margin: 0px;
+}
+.footer{
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+.header{
+    position: fixed;
+    top: 0px;
+}
+.mainContent{
+    height: 80%;
+}
+.chatDisplay{
+    width: 400px;
+    height: 300px;
+    border: solid black 3px;
+    margin-right: 0px;
+}
+.startMessage{
+    text-align: center;
+}
+.userMessages{
+    padding-left: 10px;
+}
