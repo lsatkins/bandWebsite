@@ -13,6 +13,8 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    background-color: rgb(255, 191, 71);
+
 }
 .panel{
     width: 50%;
@@ -46,4 +48,24 @@ p{
 }
 .userMessages{
     padding-left: 10px;
+    padding-right: 10px;
+    background-color: black;
+    color:rgb(255, 191, 71);
+}
+.chatDisplay {
+    /* background-color: rgba(0, 0, 0, 0.3); */
+    background-color: white;
+    overflow-y: scroll;
+    /* background-color: rgba(255, 191, 71, 0.9); */
+}
+/* .chatDisplay::-webkit-scrollbar {
+    width: 3px;
+    
+}
+.chatDisplay::-webkit-scrollbar-thumb {
+    background-color: rgb(67, 176, 241); 
+    border-radius: 3px; 
+} */
+.chatDisplay::-webkit-scrollbar{
+    display: none;
 }

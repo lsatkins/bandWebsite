@@ -1,5 +1,6 @@
 let chatUsername = document.querySelector('#chatUsername');
 let chatMessage = document.querySelector('#chatMessage');
+let startMessage = document.querySelector('.startMessage')
 
 //connect socket.io
 const socket = io('http://localhost:3000');
@@ -23,6 +24,9 @@ chatForm.addEventListener('submit', e=>{
 
     chatMessage.value = ""
 
+    startMessage.remove();
+    startMessage.style.height = '0px';
+
     chatMessage.focus();
 })
 
@@ -37,7 +41,7 @@ const showMessage = (data) => {
     let newMessage = document.createElement('p')
 
     if(chatUsername.value == data.username){
-        newMessage.className = "bg-success userMessages"
+        newMessage.className = "userMessages"
     }
     else{
         newMessage.className = 'bg-info text-warning otherMessages'
